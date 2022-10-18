@@ -11,8 +11,6 @@ const HeartAndTime = (props) => {
     const minutes = getTime(Math.floor(timeLeft / 60));
     const seconds = getTime(timeLeft - minutes * 60); 
 
-    console.log(timeLeft);
-
     useEffect(() => {
         const interval = setInterval(() => {
             setTimeLeft((timeLeft) => (timeLeft >= 1 ? timeLeft - 1 : 0));

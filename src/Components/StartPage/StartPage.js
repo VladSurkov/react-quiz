@@ -33,8 +33,9 @@ const StartPage = () => {
     const showModalHandler = () => {
         if (isOpenLevel === true) {
             navigate('/level?cooking');
+        } else {
+            setIsModalOpen(true);
         }
-        setIsModalOpen(true);
     }
 
     const openLevelHandler = () => {
@@ -112,7 +113,7 @@ const StartPage = () => {
                                     search: 'it',
                                 }} className={styles.link} onClick={randomArrayGenerationHandler}>IT Quiz</Link>
                                 <div className={styles.blockLink}>
-                                    <a href="#" className={isOpenLevel ? styles.link : styles.link + ' ' + styles.block} onClick={showModalHandler} id="coockingLink">Cooking Quiz</a> {/* onClick={clickBlockedLevelHandler} */}
+                                    <a className={isOpenLevel ? styles.link : styles.link + ' ' + styles.block} onClick={showModalHandler} id="coockingLink">Cooking Quiz</a> {/* onClick={clickBlockedLevelHandler} */}
                                 </div>
                             </div>
                         </div>
