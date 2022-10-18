@@ -69,21 +69,6 @@ const StartPage = () => {
 
     return (
         <>
-            {/* {[0,1,2,3].map((item, index) => {
-                        return (
-                            <React.Fragment key={index}>
-                                <p>item</p>
-                                <>
-                                    <p>
-                                        {item}
-                                    </p>
-                                    <p>
-                                        {item}
-                                    </p>
-                                </>
-                            </React.Fragment>
-                        )
-                    })} */}
             {isModalOpen && <Modal onHideModal={hideModalHandler}>
                 <ModalLink 
                     onHideModal={hideModalHandler}

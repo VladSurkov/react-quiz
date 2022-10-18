@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState } from 'react';
 
 //create a context, with createContext api
 export const MyContextProvider = createContext();
@@ -8,7 +8,7 @@ const MyContext = (props) => {
     const [sequence, setSequence] = useState('');
 
     // state for timer
-    const [timeLeft, setTimeLeft] = useState(5);
+    const [timeLeft, setTimeLeft] = useState(120);
 
     // this state will be shared with all components
     let [userCoins, setUserCoins] = useState(0);
