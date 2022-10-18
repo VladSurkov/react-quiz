@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-quiz/static/css/main.c2989989.css",
-    "main.js": "/react-quiz/static/js/main.474083c0.js",
+    "main.js": "/react-quiz/static/js/main.20c73c8d.js",
     "static/media/gameOver1.png": "/react-quiz/static/media/gameOver1.287e5c9fb276c3e7441d.png",
     "static/media/Logo.png": "/react-quiz/static/media/Logo.794ca79bcb2cccd97d32.png",
     "static/media/Plus.png": "/react-quiz/static/media/Plus.ef46e77edfa2de95f391.png",
@@ -14,10 +14,10 @@
     "static/media/main-coin.png": "/react-quiz/static/media/main-coin.8b3c2039656959a72ade.png",
     "index.html": "/react-quiz/index.html",
     "main.c2989989.css.map": "/react-quiz/static/css/main.c2989989.css.map",
-    "main.474083c0.js.map": "/react-quiz/static/js/main.474083c0.js.map"
+    "main.20c73c8d.js.map": "/react-quiz/static/js/main.20c73c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.c2989989.css",
-    "static/js/main.474083c0.js"
+    "static/js/main.20c73c8d.js"
   ]
 }
