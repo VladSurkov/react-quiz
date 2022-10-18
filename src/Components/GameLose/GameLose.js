@@ -14,7 +14,7 @@ const GameLose = () => {
     }
 
     const clickPlayAgainHandler = () => {
-        navigate(-2);
+        navigate(-1);
         setIndex(0);
     }
     
