@@ -1,0 +1,49 @@
+.header {
+    background-color: beige;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #100186;
+}
+.closeBtn {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.buttonsBlock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.buttonsBlock button {
+    background: #52C4DD;
+    border-radius: 10px;
+    border: 0;
+    padding: 0 10px;
+    height: 38px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #100186;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.buttonsBlock button:hover {
+    background: #78E289;
+}

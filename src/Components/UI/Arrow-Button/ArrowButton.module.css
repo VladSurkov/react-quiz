@@ -1,0 +1,7 @@
+.arrowImg {
+    position: absolute;
+    left: -40px;
+    width: 75px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}

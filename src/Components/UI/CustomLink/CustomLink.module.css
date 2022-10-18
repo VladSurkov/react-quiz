@@ -1,0 +1,10 @@
+.levelLink {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.levelLink:hover {
+    color: #7b6de4;
+}

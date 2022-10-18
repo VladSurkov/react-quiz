@@ -1,0 +1,30 @@
+.money {
+    height: 50px;
+    width: 170px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #252a67;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money p {
+    color: white;
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+}
+.coin {
+    position: absolute;
+    left: -20px;
+    width: 75px;
+    height: 75px;
+}
+.plus {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

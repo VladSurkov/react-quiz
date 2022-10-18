@@ -1,0 +1,43 @@
+.gameWinner {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3c449e;
+    font-family: 'DynaPuff', cursive;
+    color: white;
+}
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.gameWinner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gameWinner__content img {
+    width: 312px;
+    height: 312px;
+}
+.gameWinner__content__buttons {
+    margin-top: 30px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    width: 300px;
+    height: 70px;
+    background-color: #30c5c0;
+    border-radius: 30px;
+    border: 1px solid #068886;
+    color: white;
+    font-size: 25px;
+    font-family: 'DynaPuff', cursive;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #fcc200;
+}

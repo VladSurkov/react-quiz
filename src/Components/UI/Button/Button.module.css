@@ -1,0 +1,15 @@
+.btn {
+    background-color: #30c5c0;
+    width: 70%;
+    height: 80px;
+    border-radius: 30px;
+    border: 1px solid #068886;
+    color: white;
+    font-size: 25px;
+    font-family: 'DynaPuff', cursive;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #fcc200;
+}
