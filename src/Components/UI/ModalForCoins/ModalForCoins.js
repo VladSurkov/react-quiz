@@ -16,7 +16,7 @@ const ModalForCoins = (props) => {
         <>
             <header className={styles.header}>
                 <p className={styles.title}>Какое количество монет вы хотите приобрести?</p>
-                <span className={styles.closeBtn} onClick={props.onHideModal}>&#10007;</span>
+                <span className={styles.closeBtn} onClick={props.onHideModal}></span>
             </header>
             <div className={styles.buttons}>
                 <button className={styles.btn} onClick={coinButtonClickHandler}>15</button>

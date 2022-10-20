@@ -8,7 +8,7 @@ import data from "../../Data/data";
 import ITdata from "../../Data/ITdata";
 import CookingData from "../../Data/CookingData";
 
-import {MyContextProvider} from "../Context/Context";
+import { MyContextProvider } from "../Context/Context";
 import Button from "../UI/Button/Button";
 import Modal from "../UI/Modal/Modal";
 import ModalInfo from "../UI/ModalInfo/ModalInfo";

@@ -1,5 +1,5 @@
 .header {
-    background-color: beige;
+    background-color: #0073dc;
     height: 50px;
     border-radius: 20px 20px 0 0;
     display: flex;
@@ -15,7 +15,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     letter-spacing: 0.5px;
-    color: #100186;
+    color: #f2f2f2;
 }
 .closeBtn {
     cursor: pointer;
@@ -27,31 +27,35 @@
 }
 .text {
     margin: 0 0 15px 0;
-    color: #100186;
-    /* color: #7400B8; */
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 .text span {
-    color: #7400B8;
+    color: #0073dc;
     font-size: 20px;
     font-family: 'DynaPuff', cursive;
 }
 
-.buyBtn {
+.buttons {
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    gap: 15px;
+}
+.buttons button {
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    background: #52C4DD;
-    border: 1px solid #100186;
-    /* border: 0; */
-    color: beige;
-    font-size: 14px;
+    background: #f18c20;
     cursor: pointer;
     transition: 0.3s;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
     padding: 0 10px;
+    border: 0;
 }
-.buyBtn:hover {
-    background: #78E289;
+.buttons button:hover {
+    transform: scale(1.05);
 }

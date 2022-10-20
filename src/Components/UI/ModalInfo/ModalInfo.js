@@ -10,13 +10,15 @@ const ModalInfo = (props) => {
         <>
             <header className={styles.header}>
                 <p className={styles.title}>Желаете приобрести новую жизнь?</p>
-                <span className={styles.closeBtn} onClick={props.onHideModal}>&#10007;</span>
             </header>
             <main className={styles.content}>
                 <p className={styles.text}>Ваше текущее количество жизней: <span>{currentHeart}</span></p>
                 <p className={styles.text}>Стоимость одной жизни = 5 монет</p>
-                <button onClick={props.onBuyLive} className={styles.buyBtn}>Купить одну жизнь</button>
             </main>
+            <div className={styles.buttons}>
+                <button onClick={props.onBuyLive}>Купить одну жизнь</button>
+                <button onClick={props.onHideModal}>Закрыть</button>
+            </div>
         </>
     );
 }

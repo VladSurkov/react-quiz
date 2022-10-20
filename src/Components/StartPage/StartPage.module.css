@@ -2,13 +2,13 @@
 
 .page {
     display: flex;
+    overflow: hidden;
 }
 
 /* ---------- Left Side ---------- */
 .left-side {
     width: 60vw;
     height: 100vh;
-    /* background-color: #fcfcfe; */
     background-color: #dde0ff;
 }
 .left-container {
@@ -124,4 +124,29 @@
 }
 .block:hover {
     color: grey;
+}
+
+@media (max-width: 768px) {
+    .page {
+        flex-direction: column;
+    }
+    .left-side {
+        width: 100vw;
+        max-height: 500px;
+    }
+    .right-side {
+        width: 100vw;
+    }
+    .left-side__content {
+        padding: 50px 0 0 0;
+    }
+    .right-side {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .left-side__content__info {
+        width: 80vw;
+    }
 }

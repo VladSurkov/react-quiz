@@ -1,5 +1,5 @@
 .header {
-    background-color: beige;
+    background-color: #0073dc;
     height: 50px;
     border-radius: 20px 20px 0 0;
     display: flex;
@@ -15,7 +15,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     letter-spacing: 0.5px;
-    color: #100186;
+    color: #f2f2f2;
+}
+.text {
+    padding: 15px 0 0 15px;
+}
+.text p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 .closeBtn {
     cursor: pointer;
@@ -30,20 +39,19 @@
 }
 
 .buttonsBlock button {
-    background: #52C4DD;
+    background: #f18c20;
     border-radius: 10px;
     border: 0;
     padding: 0 10px;
     height: 38px;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 1px solid #100186;
 
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #fff;
 }
 .buttonsBlock button:hover {
-    background: #78E289;
+    transform: scale(1.05);
 }

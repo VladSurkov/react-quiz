@@ -4,6 +4,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #3c449e;
+    overflow: hidden;
 }
 
 .header {
@@ -72,4 +73,15 @@
     position: absolute;
     opacity: 0.3;
     pointer-events: none;
+}
+
+@media (max-width: 1400px) {
+    .level {
+        width: auto;
+        gap: 10px;
+    }
+    .photo img {
+        background-size: 100%;
+        background-position: center;
+    }
 }

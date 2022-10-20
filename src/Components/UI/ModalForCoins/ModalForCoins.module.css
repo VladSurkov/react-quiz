@@ -1,5 +1,5 @@
 .header {
-    background-color: beige;
+    background-color: #0073dc;
     height: 50px;
     border-radius: 20px 20px 0 0;
     display: flex;
@@ -15,11 +15,33 @@
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     letter-spacing: 0.5px;
-    color: #100186;
+    color: #f2f2f2;
 }
 .closeBtn {
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    font-size: 24px;
+    position: relative;
+    transition: all 1s ease;
+}
+.closeBtn:hover {
+    transform: rotate(90deg);
+}
+.closeBtn::before, .closeBtn::after {
+    content: '';
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.closeBtn::before {
+    transform: rotate(45deg);
+}
+.closeBtn::after {
+    transform: rotate(-45deg);
 }
 
 .buttons {
@@ -28,21 +50,23 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    gap: 15px;
     padding: 15px;
 }
-
 .btn {
     width: 100px;
     height: 40px;
+    background: #f18c20;
     border-radius: 10px;
-    background: #52C4DD;
-    border: 1px solid #100186;
-    color: beige;
-    font-size: 14px;
+    border: 0;
+    padding: 0 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #fff;
 }
 .btn:hover {
-    background: #78E289;
+    transform: scale(1.05);
 }
