@@ -2,15 +2,16 @@ import styles from "./ModalInfo.module.css";
 
 import { useContext } from "react";
 import { MyContextProvider } from "../../Context/Context";
+import HeaderForModal from "../HeaderForModal/HeaderForModal"
 
 const ModalInfo = (props) => {
     let { currentHeart } = useContext(MyContextProvider);
 
     return (
         <>
-            <header className={styles.header}>
+            <HeaderForModal>
                 <p className={styles.title}>Желаете приобрести новую жизнь?</p>
-            </header>
+            </HeaderForModal>
             <main className={styles.content}>
                 <p className={styles.text}>Ваше текущее количество жизней: <span>{currentHeart}</span></p>
                 <p className={styles.text}>Стоимость одной жизни = 5 монет</p>

@@ -2,6 +2,7 @@ import styles from "./ModalForCoins.module.css";
 
 import { MyContextProvider } from "../../Context/Context";
 import { useContext } from "react";
+import HeaderForModal from "../HeaderForModal/HeaderForModal";
 
 const ModalForCoins = (props) => {
     let { userCoins, setUserCoins, setIsModalOpened } = useContext(MyContextProvider);
@@ -14,10 +15,10 @@ const ModalForCoins = (props) => {
 
     return (
         <>
-            <header className={styles.header}>
+            <HeaderForModal>
                 <p className={styles.title}>Какое количество монет вы хотите приобрести?</p>
                 <span className={styles.closeBtn} onClick={props.onHideModal}></span>
-            </header>
+            </HeaderForModal>
             <div className={styles.buttons}>
                 <button className={styles.btn} onClick={coinButtonClickHandler}>15</button>
                 <button className={styles.btn} onClick={coinButtonClickHandler}>20</button>

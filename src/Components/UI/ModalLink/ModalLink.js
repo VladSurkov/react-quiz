@@ -1,11 +1,12 @@
 import styles from "./ModalLink.module.css";
+import HeaderForModal from "../HeaderForModal/HeaderForModal";
 
 const ModalLink = (props) => {
     return(
         <div>
-            <header className={styles.header}>
+            <HeaderForModal>
                 <p className={styles.title}>Открыть уровень?</p>
-            </header>
+            </HeaderForModal>
             <div className={styles.text}>
                 <p>Для открытия уровня нужно 25 монет</p>
             </div>
