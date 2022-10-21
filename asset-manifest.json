@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-quiz/static/css/main.ff257828.css",
-    "main.js": "/react-quiz/static/js/main.70f3c138.js",
+    "main.css": "/react-quiz/static/css/main.93c30207.css",
+    "main.js": "/react-quiz/static/js/main.28b30bce.js",
     "static/media/gameOver1.png": "/react-quiz/static/media/gameOver1.287e5c9fb276c3e7441d.png",
     "static/media/Logo.png": "/react-quiz/static/media/Logo.794ca79bcb2cccd97d32.png",
     "static/media/Plus.png": "/react-quiz/static/media/Plus.ef46e77edfa2de95f391.png",
@@ -13,11 +13,11 @@
     "static/media/Crown.png": "/react-quiz/static/media/Crown.273f84de9bd42ae72057.png",
     "static/media/main-coin.png": "/react-quiz/static/media/main-coin.8b3c2039656959a72ade.png",
     "index.html": "/react-quiz/index.html",
-    "main.ff257828.css.map": "/react-quiz/static/css/main.ff257828.css.map",
-    "main.70f3c138.js.map": "/react-quiz/static/js/main.70f3c138.js.map"
+    "main.93c30207.css.map": "/react-quiz/static/css/main.93c30207.css.map",
+    "main.28b30bce.js.map": "/react-quiz/static/js/main.28b30bce.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff257828.css",
-    "static/js/main.70f3c138.js"
+    "static/css/main.93c30207.css",
+    "static/js/main.28b30bce.js"
   ]
 }
