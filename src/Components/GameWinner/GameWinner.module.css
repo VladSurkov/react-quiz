@@ -4,11 +4,13 @@
     background-color: #3c449e;
     font-family: 'DynaPuff', cursive;
     color: white;
+    overflow: hidden;
 }
 .container {
     width: 1020px;
     margin: 0 auto;
     padding: 0 10px;
+    box-sizing: border-box;
 }
 .gameWinner__content {
     display: flex;
@@ -40,4 +42,17 @@
 }
 .button:hover {
     background-color: #fcc200;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .gameWinner__content__buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
 }

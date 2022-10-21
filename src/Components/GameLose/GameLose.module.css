@@ -1,12 +1,14 @@
 .page {
     height: 100vh;
-    /* padding: 40px 0 0 0; */
     background-color: #3c449e;
     font-family: 'DynaPuff', cursive;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
 }
 .img {
     width: 600px;
@@ -18,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 .button {
     width: 300px;
@@ -33,4 +36,22 @@
 }
 .button:hover {
     background-color: #fcc200;
+}
+
+@media (max-width: 720px) {
+    .page__buttons {
+        width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    .page__buttons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 580px) {
+    .img {
+        width: 100%;
+    }
 }

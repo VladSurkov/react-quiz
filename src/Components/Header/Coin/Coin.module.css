@@ -28,3 +28,25 @@
     height: 50px;
     cursor: pointer;
 }
+
+@media (max-width: 700px) {
+    .coin {
+        width: 65px;
+        height: 65px;
+        left: -10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .coin {
+        width: 50px;
+        height: 50px;
+        left: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .coin {
+        left: -10px;
+    }
+}
