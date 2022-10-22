@@ -59,3 +59,25 @@
 .btn:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 750px) {
+    .buttons {
+        width: clamp(18.75rem, 11.932rem + 34.09vw, 37.5rem);
+    }
+}
+
+@media (max-width: 425px) {
+    .buttons {
+        width: clamp(12.5rem, -6.548rem + 95.24vw, 18.75rem); 
+        flex-direction: column;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 324px) {
+    .title {
+        font-size: 16px;
+    }
+}

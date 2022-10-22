@@ -109,7 +109,9 @@
     }
     .helpButton {
         position: absolute;
-        display: none;
+        /* display: none; */
+        right: 30px;
+        top: 30px;
     }
     .photo, .answers {
         width: 100%;

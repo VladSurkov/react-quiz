@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 .gameWinner__content img {
     width: 312px;
@@ -47,6 +48,15 @@
 @media (max-width: 1100px) {
     .container {
         width: 100%;
+    }
+    .gameWinner__content h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .gameWinner__content h3 {
+        font-size: 40px;
     }
 }
 
